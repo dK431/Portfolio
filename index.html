@@ -1,0 +1,400 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/804e462bb4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- -----------------------------header----------------------------- -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="index.html" ><img  src="IMG/logo.png" alt="dK" class="logo" id="logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#">Work</a></li> -->
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Diwanshu</span> </h1>
+                <p><i class="fa-solid fa-shield-halved"></i>Cyber Security Aspirants</p>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMG/3.jpg" alt="me">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am a Cyber Security student. I am Bvocain from SVPCET, Nagpur. Aimed to be the Best Cyber Security Expert in the World. </p>
+                    <div class="tab-title">
+                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                         <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming</span><br>C, C++, Python, Assembly language.</li>
+                            <li><span>Web Development </span><br>HTML, CSS , Javascript, SQL, PHP.</li>
+                            <li><span>Microsoft Tools</span><br>MS Word, MS Excel, MS PowerPoint.</li>
+                            <li><span>Opertaing Systems</span><br>Linux Terminal Methdology, Kali Linux Tools.</li>
+                            <li><span>Languages</span><br>Hindi, Marathi, English, Basic Spanish.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br>SSC from Maharashtra Board.<br>From St. Joesph's Convent High School, Kamptee.</li>
+                            <li><span>2021</span><br>HSC from Maharashtra Board.<br>From S K Porwal College, Kamptee.</li>
+                            <li><span>2021 - Current</span><br>Bachelor of Vocation in Cyber Security.<br>From St. Vincent Pallotti College of Engineering & Technology, Nagpur.<br>Current 2<sup>nd</sup> Year </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------work------------------ -->
+    <!-- <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div>
+                    <i class="fa-solid fa-robot"></i>
+                    <h2>PyRo Exhibiton</h2>
+                    <p>Py - Python & Ro - Robotics. I worked as Coordinator as well as been part of fabrication team. This Exhibtion was held in Raman Science Center,Nagpur on 14<sup>th</sup> November 2021 under the guidance of Mr. Abhishek Angole.
+                </div>
+                <div>
+                    <i class="fa-brands fa-codepen"></i>
+                    <h2>I-Curtain Project</h2>
+                    <p>It was a IOT based project of opening the curtain. At Mahatma Gandhi Antarrashtiya Hindi Vishwavidyalaya, Wardha on 3<sup>rd</sup>January 2022. Using a button we opened curtains on 5 places in the college. And worked with 2 sir's  and 5 colleagues of my college.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-rocket"></i>
+                    <h2>Emerging Technologies & IOT Workshops</h2>
+                    <p>I worked as a Coordinator in these Workshops which was bascically for the 12<sup>th</sup> pass students. This were held on 6<sup>th</sup> August 2022 & 19<sup>th</sup>,20<sup>th</sup> August 2022.</p>
+                    <a href="">Learn more</a>
+                </div> -->
+                <!-- <div>
+                    <h2></h2>
+                    <p></p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <h2></h2>
+                    <p></p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <h2></h2>
+                    <p></p>
+                    <a href="">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   -->
+
+    </div> 
+    <!-- ---------------------portfolio---------------- -->
+      <div  id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">Portfolio</h1>
+            <div class="work-list">
+                <div class="work" id="box1">
+                    <div class="box-content">
+                    <img src="IMG//Raman science 2K21/11.jpg" alt="Raman science">
+                    <div class="layer">
+                        <h3>PyRo Exhibiton</h3>
+                        <p>Py - Python & Ro - Robotics. I worked as Coordinator as well as been part of fabrication team. This Exhibtion was held in Raman Science Center,Nagpur on 14th November 2021 under the guidance of Mr. Abhishek Angole.</p>
+                        <a href="#box1"  class="link" ><i  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    </div>
+                </div>
+                <div class="work" id="box2">
+                    <div class="box-content">
+                    <img src="IMG/wardha 2K22/8.jpg" alt="Wardha">
+                    <div class="layer">
+                        <h3>I-Curtain Project</h3>
+                        <p>It was a IOT based project of opening the curtain. At Mahatma Gandhi Antarrashtiya Hindi Vishwavidyalaya, Wardha on 3rd January 2022. Using a button we opened curtains on 5 places in the college.</p>
+                        <a href="#box2"  class="link"><i  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                </div>
+                <div class="work" id="box3">
+                    <div class="box-content">
+                    <img src="IMG/TantraF 2K22/6.jpg" alt="Tantra Feista">
+                    <div class="layer">
+                        <h3>Tantra Feista RoboRumble winner</h3>
+                        <p>Participated with my team in the Robo-Bots RoboRubmle competetion held in IIIT, Nagpur. I won the 1<sup>st</sup> Prize with my Team in that competetion. </p>
+                        <a href="#box3" class="link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                </div>
+                <div class="work" id="box4">
+                    <div class="box-content">
+                    <img src="IMG/chase the web 2K22/1.JPG" alt="chase the web">
+                    <div class="layer">
+                        <h3>Chase the Web - Hackathon Winner</h3>
+                        <p>Participated with my team patner in the Chase the web - Hackathon held in SVPCET, Nagpur. I won the 1<sup>st</sup> Prize with my Team in that Hackathon. We created a Solution on the basis of Problem Statement</p>
+                        <a href="#box4" class="link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                </div>
+                <div class="work" id="box5">
+                    <div class="box-content">
+                    <img src="IMG/IITB 2K22/5.jpg" alt="Rowboatics">
+                    <div class="layer">
+                        <h3>Rowboatics Techfest IIT,Bombay 2022</h3>
+                        <p>Participated with my team in the Rowboatics competetion held in IIT,Bomaby. We cleared the 1<sup>st</sup> round and quallified for the 2<sup>nd</sup>& final round. It Involves controlling RC Boat over the Arena.</p>
+                        <a href="#box5" class="link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                </div>
+                <div class="work" id="box6">
+                    <div class="box-content">
+                    <img src="IMG/Future skill ambasador 2K22/5.jpg" alt="Future skill Ambasador">
+                    <div class="layer">
+                        <h3>Selected as Ambasador for Future Skill Prime 2022</h3>
+                        <p>I were Selected as Ambasador for Future Skill Prime in SVPCET,Nagpur. We were given special recognition by NASSCOM West Head Mr.Sachin Maske for my Great Work.</p>
+                        <a href="#box6" class="link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                </div>
+                
+                
+
+            </div>
+            <!-- ------------Enlarge sections------------ -->
+      
+        
+        <div class="enlarged-container">
+            <div class="enlarged-box">
+                <i id="close" class="fa-solid fa-circle-xmark"></i>
+                <div class="enlarged-content">
+                    <h3>Enlarged Content</h2>
+                    <p>This is the enlarged content.</p>
+                </div>
+            </div>
+        </div>
+        <div id="box1-content" class="box-content hide">
+            <h3>PyRo Exhibiton</h3>
+            <p>Py - Python & Ro - Robotics. I worked as Coordinator as well as been part of fabrication team. This Exhibtion was held in Raman Science Center,Nagpur on 14th November 2021 under the guidance of Mr. Abhishek Angole.</p>
+          </div>
+          <div id="box2-content" class="box-content hide">
+            <h3>I-Curtain Project</h3>
+            <p>It was a IOT based project of opening the curtain. At Mahatma Gandhi Antarrashtiya Hindi Vishwavidyalaya, Wardha on 3rd January 2022. Using a button we opened curtains on 5 places in the college.</p>
+          </div>
+          <div id="box3-content" class="box-content hide">
+            <h3>Tantra Feista RoboRumble winner</h3>
+                        <p>Participated with my team in the Robo-Bots RoboRubmle competetion held in IIIT, Nagpur. I won the 1<sup>st</sup> Prize with my Team in that competetion. </p>
+          </div>
+          <div id="box4-content" class="box-content hide">
+            <h3>Chase the Web - Hackathon Winner</h3>
+            <p>Participated with my team patner in the Chase the web - Hackathon held in SVPCET, Nagpur. I won the 1<sup>st</sup> Prize with my Team in that Hackathon. We created a Solution on the basis of Problem Statement</p>
+          </div>
+          <div id="box5-content" class="box-content hide">
+            <h3>Rowboatics Techfest IIT,Bombay 2022</h3>
+            <p>Participated with my team in the Rowboatics competetion held in IIT,Bomaby. We cleared the 1<sup>st</sup> round and quallified for the 2<sup>nd</sup>& final round. It Involves controlling RC Boat over the Arena.</p>
+          </div>
+          <div id="box6-content" class="box-content hide">
+            <h3>Selected as Ambasador for Future Skill Prime 2022</h3>
+                        <p>I were Selected as Ambasador for Future Skill Prime in SVPCET,Nagpur. We were given special recognition by NASSCOM West Head Mr.Sachin Maske for my Great Work.</p>
+          </div>
+
+            <a href="" class="btn">See more</a>
+        </div>
+      </div>
+      
+                
+         
+    
+      <!-- ------------------contact------------- -->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>diwanshukawadkar@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+917262890548</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/diwanshu.kawadkar" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/4dk31?t=qMPUGEyD0OtZFI0NdfKdEA&s=09" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/diwanshu_kawadkar_dk/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/diwanshu-kawadkar-dk" target="_blank"><i class="fa-brands fa-linkedin"></i> </a>
+                    </div>
+                    <a href="IMG/Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter your name" required>
+                        <input type="email" name="Email" placeholder="Enter your mail" required>
+                        <textarea name="Message" id="" rows="6" rows="10" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Diwanshu Kawadkar</p>
+        </div>
+      </div>
+    <script>
+        // ------------------ logo rotating ---------
+        // Get the element to rotate
+            const rotateElement = document.querySelector('#header .container img');
+        // Rotate the element on page load
+            window.onload = function() {
+            rotateElement.classList.add('rotate');
+             };
+        // Get the logo element
+            const logo = document.getElementById('logo');
+        // Rotate the element again on hover
+            logo.addEventListener('mouseover', function() {
+             rotateElement.classList.add('rotate');
+            });
+        // Remove the rotation class when hover ends
+            logo.addEventListener('mouseout', function() {
+            rotateElement.classList.remove('rotate');
+            });
+    </script>
+    
+    <script> 
+    // ------------------eduaction swtiching tab-------------
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link") ;
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab") ;
+            }
+             event.currentTarget.classList.add("active-link");
+             document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>
+    <script>
+        // ------------------menu  on small device--------------------------------
+        var sidemenu = document.getElementById('sidemenu');
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <!-- https://github.com/jamiewilson/form-to-google-sheets  for Below code and google spreedsheet site reference -->
+    <!-- ------------------contact------------- -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyZ8o_H10QuYD3iejJkEAHFDqQp2GpvpJudE_RKnZiJ8zTPhTgArnIEOb5_kr_Qrv5Q/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+      
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function()
+            {
+            msg.innerHTML=""},5000)
+            form.reset()
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+   
+    <script>
+ // --------portfolio enlarging and getting small-------
+            const boxes = document.querySelectorAll('.work');
+            const enlargedContainer = document.querySelector('.enlarged-container');
+            const enlargedBox = document.querySelector('.enlarged-box');
+            const closeBtn = document.querySelector('#close');
+            const enlargedContent = document.querySelector('.enlarged-content');
+
+            // Function to handle click event on each box
+            function handleClick() {
+            // Hide other boxes
+            boxes.forEach((box) => {
+                if (box !== this) {
+                box.classList.add('hide');
+                }
+            });
+
+            // Show enlarged container
+            enlargedContainer.style.display = 'flex';
+
+            // Set background image and content for enlarged box
+            enlargedBox.style.backgroundImage = this.style.backgroundImage;
+            enlargedContent.innerHTML = this.innerHTML;
+
+            // Smooth transition for enlarged box
+            setTimeout(() => {
+                enlargedBox.style.transform = 'translate(-50%, -50%) scale(1)';
+            }, 50);
+            }
+
+            // Function to handle click event on close button
+            function handleClose() {
+            // Show all boxes
+            boxes.forEach((box) => {
+                box.classList.remove('hide');
+            });
+
+            // Hide enlarged container
+            enlargedContainer.style.display = 'none';
+
+            // Reset enlarged box
+            enlargedBox.style.transform = 'translate(-50%, -50%) scale(0)';
+            enlargedBox.style.backgroundImage = '';
+            enlargedContent.innerHTML = '';
+            }
+
+            // Add click event listener on each box
+            boxes.forEach((box) => {
+            box.addEventListener('click', handleClick);
+            });
+
+            // Add click event listener on close button
+            closeBtn.addEventListener('click', handleClose);
+            boxes.forEach(box => {
+            box.addEventListener('click', () => {
+                const boxId = box.getAttribute('id');
+                const boxContent = document.querySelector(`#${boxId}-content`).innerHTML;
+                enlargedContent.innerHTML = boxContent;
+                enlargedContainer.style.display = 'block';
+                boxes.forEach(otherBox => {
+                if (otherBox !== box) {
+                    otherBox.style.display = 'none';
+                }
+                });
+            });
+            });
+
+            closeBtn.addEventListener('click', () => {
+            enlargedContainer.style.display = 'none';
+            boxes.forEach(box => {
+                box.style.display = 'inline-block';
+            });
+            });
+
+    </script>
+
+</body>
+</HTML>
